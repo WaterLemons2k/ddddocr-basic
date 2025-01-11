@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="ddddocr-basic",
-    version="1.5.6",
+    version="1.5.6.post1",
     author="WaterLemons2k",
     description="Basic version of ddddocr",
     long_description=long_description,
