@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="ddddocr-basic",
-    version="1.5.6.post2",
+    version="1.5.6.post3",
     author="WaterLemons2k",
     description="Basic version of ddddocr",
     long_description=long_description,
@@ -21,4 +21,6 @@ setup(
     ],
     install_requires=['numpy', 'onnxruntime', 'Pillow'],
     python_requires='>=3.10',
+    include_package_data=True,
+    package_data={"ddddocr": ["*.onnx"]},
 )
